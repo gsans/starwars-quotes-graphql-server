@@ -1,0 +1,22 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gerard Sans <gerard.sans@gmail.com> (http://medium.com/@gerard.sans)",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "2.6.7",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "fakergem": "1.0.3",
+    "graphql": "14.4.2",
+    "graphql-subscriptions": "1.1.0",
+    "graphql-tools": "4.0.5",
+    "subscriptions-transport-ws": "0.9.16"
+  }
+}
