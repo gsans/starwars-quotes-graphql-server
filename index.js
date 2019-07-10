@@ -29,7 +29,7 @@ const subscriptionServer = SubscriptionServer.create(
 );
 
 websocketServer.listen(WS_PORT, () =>
-  console.log(`Websocket Server is now running on http://localhost:${WS_PORT}`)
+  console.log(`Websocket Server is now running on http://localhost:${WS_PORT}/graphql`)
 );
 
 // Setup graphql server
@@ -51,6 +51,6 @@ server.applyMiddleware({ app });
 
 app.listen({ port: PORT }, () =>
   console.log(
-    `server listening at http://localhost:${PORT}${server.graphqlPath}`
+    `Server listening at http://localhost:${PORT}${server.graphqlPath}`
   )
 );
